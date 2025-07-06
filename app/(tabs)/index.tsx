@@ -14,6 +14,7 @@ import { Fragment, useCallback } from "react";
 import cn from "clsx";
 import CartButton from "../components/CartButton";
 
+
 type OfferItem = {
   id: number;
   title: string;
