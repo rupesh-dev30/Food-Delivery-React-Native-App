@@ -13,7 +13,7 @@ import { Fragment, useCallback } from "react";
 
 import cn from "clsx";
 import CartButton from "../components/CartButton";
-import { useAuthStore } from "@/store/auth.store";
+// import { useAuthStore } from "@/store/auth.store";
 
 type OfferItem = {
   id: number;
@@ -23,8 +23,8 @@ type OfferItem = {
 };
 
 export default function Index() {
-  const { user } = useAuthStore();
-  console.log("USER", JSON.stringify(user, null, 4));
+  // const { user } = useAuthStore();
+  // console.log("USER", JSON.stringify(user, null, 4));
 
   const renderItem = useCallback(
     ({ item, index }: ListRenderItemInfo<OfferItem>) => {
